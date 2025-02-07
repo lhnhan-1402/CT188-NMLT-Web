@@ -1,0 +1,62 @@
+body {
+    width: 1024px;
+    margin: auto;
+}
+header {
+    background-image: url(TH_B2_Data/header.png);
+    height: 100px;
+}
+.logo {
+    height: 36px;
+}
+.header-img1 {
+    position: absolute;
+    height: 100px;
+    top: -30px;
+    animation-name: img1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.header-img2 {
+    position: absolute;
+    height: 70px;
+    top: -5px;
+    animation-name: img2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.header-img3 {
+    position: absolute;
+    height: 80px;
+    top: 0px;
+    animation-name: img3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes img1 {
+    from{
+        left: 80%;
+    }
+    to{
+        left: 30%;
+    }
+}
+@keyframes img2 {
+    from{
+        left: 80%;
+    }
+    to{
+        left: 45%;
+    }
+}
+@keyframes img3 {
+    from{
+        left: 80%;
+    }
+    to{
+        left: 63%;
+    }
+}
