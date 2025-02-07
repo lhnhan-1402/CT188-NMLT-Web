@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <link rel="shortcut icon" type="images/vnd/microsoft.icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="" id="logo">
+        <nav>
+            <a href="trangchu.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="tintuc.html">Tin tức</a>
+            <a href="dangnhap.html">Đăng nhập</a>
+            <a href="dangky.html">Đăng ký</a>
+            <a href="lienhe.html">Liên hệ</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Liên hệ</h1>
+        <img src="images/lienhe/check-in.png" width="150" alt="">
+        <h1>Địa chỉ: 0123, Tòa Nhà ABC, TP. Cần Thơ</h1>
+        <p>Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới. Xin cám ơn.</p>
+        <form method="post" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>Góp ý</legend>
+                <table>
+                    <tr>
+                        <td><label for="name">Họ tên:</label></td>
+                        <td><input type="text" name="hoten" id="name" placeholder="Vui lòng nhập Họ tên của bạn" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="text" name="email" id="email" placeholder="Vui lòng nhập email của bạn" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="topic">Chủ đề:</label></td>
+                        <td>
+                            <select name="chude" id="topic" size="1">
+                                <option value="">Về sản phẩm / dịch vụ</option>
+                                <option value="">Về ưu đãi thành viên</option>
+                                <option value="">Về tỉn tuyển dụng</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Nội dung:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea rows="7" cols="50" name="noidung" placeholder="Nội dung cần liên hệ">
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="submit" value="Gửi">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy; 2021 Bản quyền thuộc về FreezeVN
+        <a href="">Facebook</a>
+        <a href="">Twitter</a>
+        <a href="">Pinterest</a>
+        <a href="#logo">Về đầu trang</a>
+    </footer>
+</body>
+
+</html>
